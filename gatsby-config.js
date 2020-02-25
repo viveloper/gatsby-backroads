@@ -14,12 +14,12 @@ module.exports = {
     description:
       'Explore awesome woldwide tours & discover what makes each of them unique. Forget your daily routine & say yes to adventure',
     author: '@johndoe',
-    data: {
-      name: 'john',
-      age: 25,
-    },
+    twitterUsername: '@john_doe',
+    image: '/defaultBcg.jpeg',
+    siteUrl: 'https://viveloper-gatsby-backroads.netlify.com/',
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,
